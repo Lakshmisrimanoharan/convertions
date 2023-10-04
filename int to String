@@ -1,0 +1,16 @@
+# convertions
+import java.util.*;
+public class Main
+{
+public static void main(String[] args)
+{
+   Scanner sc=new Scanner(System.in);
+   System.out.print("Enter the value :");
+   int val=sc.nextInt();
+   String str=Integer.toString(val);
+   System.out.println(str);
+}
+}
+output :
+Enter the value : 200
+200
